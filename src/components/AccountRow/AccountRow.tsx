@@ -70,6 +70,7 @@ export const AccountRow = ({ allocationValue, assetId, ...rest }: AccountRowArgs
             overflow='hidden'
             display='inline-block'
             width={{ base: '100px', xl: '100%' }}
+            data-test='asset-name'
           >
             {asset.name}
           </RawText>
